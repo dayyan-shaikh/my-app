@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
+import About from './components/About';
 
 function App(){
   return(
@@ -10,6 +11,7 @@ function App(){
     <Textform heading="Please Enter anything"/>
    
     </div>
+    <About></About>
 
     </>
 
