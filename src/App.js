@@ -2,6 +2,8 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
 import About from './components/About';
+import Usestate from './components/Usestate';
+import './index.css'
 
 function App(){
   return(
@@ -12,6 +14,7 @@ function App(){
    
     </div>
     <About></About>
+    <Usestate />
 
     </>
 
