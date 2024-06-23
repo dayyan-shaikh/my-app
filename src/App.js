@@ -4,6 +4,7 @@ import Textform from './components/Textform';
 import About from './components/About';
 import Usestate from './components/Usestate';
 import './index.css'
+import UsestateExp from './components/UsestateExp';
 
 function App(){
   return(
@@ -15,7 +16,7 @@ function App(){
     </div>
     <About></About>
     <Usestate />
-
+    <UsestateExp />
     </>
 
     
