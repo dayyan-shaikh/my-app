@@ -10,14 +10,14 @@ import Q3 from './components/Q3';
 function App(){
   return(
     <>               
-    {/* <Navbar></Navbar> */}
+    <Navbar></Navbar>
     <div className="container">
-    {/* <Textform heading="Please Enter anything"/> */}
+    <Textform heading="Please Enter anything"/>
     
     </div>
-    {/* <About></About> */}
-    {/* <Usestate /> */}
-    {/* <UsestateExp /> */}
+    <About></About>
+    <Usestate />
+    <UsestateExp />
     <Q3/>
     </>
 
